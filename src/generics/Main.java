@@ -19,7 +19,8 @@ public class Main {
             public boolean select(Integer integer) {
                 return integer < 10;
             }
-        };
+        };/*<-- definicja selektora; bez lambda-wyrażeń; nazwa zmiennej sel */
+
 
         Mapper<Integer, Integer> mapper = new Mapper<Integer, Integer>() {
             @Override
